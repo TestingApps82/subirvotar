@@ -168,7 +168,7 @@ export function initSubirPropuesta() {
         container.innerHTML = `
             <div class="form-group">
                 <label>Nombre Completo:</label>
-                <input type="text" id="nombreUsuario" placeholder="Ingresa tu nombre completo" style="text-transform: uppercase; ">
+                <input type="text" id="nombreUsuario" placeholder="Ingresa tu nombre y apellidos completos" style="text-transform: uppercase; ">
             </div>
             <button id="btnVerificar">Verificar Usuario</button>
             <div id="resultadoBusqueda"></div>
