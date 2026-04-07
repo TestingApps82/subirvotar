@@ -137,7 +137,7 @@ export async function initVotarPropuesta() {
     container.innerHTML = `
         <div class="form-group">
             <label>Tu Nombre Completo:</label>
-            <input type="text" id="nombreVotante" placeholder="Ingresa tu nombre completo" style="text-transform: uppercase;" >
+            <input type="text" id="nombreVotante" placeholder="Ingresa tu nombre y apellidos completos" style="text-transform: uppercase;" >
         </div>
         <button id="btnVerificarVotante">Verificar Identidad</button>
         <div id="resultadoVotante"></div>
