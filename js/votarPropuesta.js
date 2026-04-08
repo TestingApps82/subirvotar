@@ -51,8 +51,12 @@ function mostrarPropuestas(usuario) {
             <div class="propuesta-card">
                 <h3>PROPUESTA DE: ${propuesta.NOMBRE}</h3>
                 <div class="images-container">
-                    <img src="${propuesta.URL01}" alt="Imagen 1 de ${propuesta.NOMBRE}">
-                    <img src="${propuesta.URL02}" alt="Imagen 2 de ${propuesta.NOMBRE}">
+                    <a href="${propuesta.URL01}" target="blank">
+                        <img src="${propuesta.URL01}" alt="Imagen 1 de ${propuesta.NOMBRE}">
+                    </a>
+                    <a href="${propuesta.URL02}" target="blank">
+                        <img src="${propuesta.URL02}" alt="Imagen 2 de ${propuesta.NOMBRE}">
+                    </a>
                 </div>
                 <div class="radio-group">
                     <input type="radio" name="voto" value="${propuesta.NOMBRE}" id="voto_${propuesta.NOMBRE.replace(/\s/g, '_')}">
