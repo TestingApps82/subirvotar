@@ -45,8 +45,12 @@ async function cargarResultados() {
                     <div class="propuesta-card">
                         <h3>${nombrePropuesta}</h3>
                         <div class="images-container">
-                            <img src="${participante.URL01}" alt="Imagen 1">
-                            <img src="${participante.URL02}" alt="Imagen 2">
+                            <a href="${participante.URL01}" target="blank">
+                                <img src="${participante.URL01}" alt="Imagen 1">
+                            </a>
+                            <a href="${participante.URL02}" target="blank">
+                                <img src="${participante.URL02}" alt="Imagen 2">
+                            </a>
                         </div>
                         <div class="resultado-voto">
                             <strong>Votos: ${votos}</strong>
